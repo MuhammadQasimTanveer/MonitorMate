@@ -1,0 +1,31 @@
+# Build folders
+[Bb]in/
+[Oo]bj/
+Debug/
+Release/
+
+# Visual Studio files
+*.user
+*.suo
+*.vcxproj.user
+*.pdb
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.sdf
+*.cache
+*.ilk
+
+# VS Code / editor settings
+.vscode/
+
+# Executables
+*.exe
+*.dll
+*.lib
+*.obj
+
+# Log files
+*.log
