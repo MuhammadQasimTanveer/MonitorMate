@@ -29,3 +29,9 @@ Release/
 
 # Log files
 *.log
+
+# Docker
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+.docker/
