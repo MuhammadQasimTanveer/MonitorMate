@@ -25,26 +25,6 @@ A comprehensive Windows system resource monitoring application built in C++.
 3. Build the solution
 4. Run the generated executable
 
-### Docker Build
-
-1. Ensure Docker Desktop is running
-2. Build the Docker image:
-   ```bash
-   docker build -t monitormate .
-   ```
-
-3. Run the container:
-   ```bash
-   docker run -it monitormate
-   ```
-
-### Using Docker Compose
-
-1. Build and run with Docker Compose:
-   ```bash
-   docker-compose up --build
-   ```
-
 ## Usage
 
 The application provides a console-based menu interface with the following options:
