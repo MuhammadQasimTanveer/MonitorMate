@@ -1,4 +1,4 @@
-# MonitorMate - System Resource Monitor
+# MonitorMate
 
 A comprehensive Windows system resource monitoring application built in C++.
 
@@ -17,8 +17,6 @@ A comprehensive Windows system resource monitoring application built in C++.
 - Docker Desktop (for containerized builds)
 
 ## Building and Running
-
-### Traditional Build
 
 1. Open `MonitorMate.sln` in Visual Studio
 2. Select your configuration (Debug/Release) and platform (x64)
@@ -42,9 +40,3 @@ The application provides a console-based menu interface with the following optio
 11. Export Data to Log File
 12. Auto-refresh Dashboard
 13. Exit
-
-## Docker Notes
-
-- The current Dockerfile uses Windows Server Core as the base image
-- For full build automation, Visual Studio Build Tools would need to be installed in the container
-- The application is Windows-specific and uses Windows APIs
